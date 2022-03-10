@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right,rgb(219, 41, 25) , #5B84B1FF);
+}
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background:black
+	url('loading.gif')
+	 no-repeat center center;	
+
+}
+.heading{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:3px 1px #5B84B1FF;
+    color: aliceblue;
+}
+.btn{
+    background-color:rgb(27, 128, 196) ;
+    border: none;
+    float: right;
+    color: white;
+    padding: 14px 40px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+   
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+   
+}
+.btn:hover {
+    background-color:#5B84B1FF;
+    color: white;
+  }
+#cards{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.card{
+    background-color: rgb(183, 40, 196);
+    width:23%;
+    box-shadow: 0 0 4px 3px rgb(145, 92, 140);
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    color:white;
+    transition-duration: 0.5S;
+
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.title{
+    font-size:1.3rem;
+
+}
+.mail{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin:1em;
+    font-size: 1.2rem;
+
+}
+.images{
+    width:80%;
+
+}
